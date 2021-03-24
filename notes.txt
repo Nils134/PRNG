@@ -1,0 +1,4 @@
+How to fix path finding:
+ export LIBRARY_PATH="/usr/local/lib:${LIBRARY_PATH}"
+ export C_INCLUDE_PATH="/usr/local/include:${C_INCLUDE_PATH}"
+ export LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
