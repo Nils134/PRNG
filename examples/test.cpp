@@ -23,7 +23,7 @@ void populateFile(int count,
 int main()
 {
    // Seed the random number generator.
-   srand( time( NULL ) );
+   srand(42);
 
    // Populate the file
    std::string file("Random_cpp.txt");
