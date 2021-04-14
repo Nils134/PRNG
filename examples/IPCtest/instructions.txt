@@ -1,2 +1,5 @@
 First run the c file
 Then run the generator you want to use.
+
+Compile individual c file:
+gcc generator.c -o generator -ltestu01 -lprobdist -lmylib -lgmp -lm

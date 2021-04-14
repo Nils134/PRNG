@@ -8,23 +8,25 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <math.h>
+#include "unif01.h"
+#include <stdio.h>
+#include "bbattery.h"
+#include <stdlib.h>
 
-double getNumber(char* myfifo) {
+double getNumber() {
+    char * myfifo = "randomPipe";
+    char * request = "emptyPipe";
     char str1[80];
     int fd1 = open(myfifo,O_RDONLY);
-        read(fd1, str1, 80);
-        double result = strtod(str1, NULL);
-        // Print the read string and close
-        close(fd1);
-  
-        // Now open in write mode and write
-        // string taken from user.
-        fd1 = open(myfifo,O_WRONLY);
-        int random = 1;
-        char output[] = "Test";
+    int test = read(fd1, str1, 80);
+    if (test < 15) {
+        printf("Too short: %d", test);
+    }
+    printf("%s\n", str1);
+    double result = strtod(str1, NULL);
+    // Print the read string and close
+    close(fd1);
 
-        write(fd1, output, strlen(output)+1);
-        close(fd1);
     return result;
 }
 
@@ -32,18 +34,12 @@ double getNumber(char* myfifo) {
 int main()
 {
     int fd1;
-  
-    // FIFO file path
-    char * myfifo = "pipe";
-  
-    // Creating the named file(FIFO)
-    // mkfifo(<pathname>,<permission>)
-    mkfifo(myfifo, 0666);
-    srand(42);
-    char str1[80];
-    double random = 1;
-    for(int i= 0; i < 10; i++) {
-        printf("Python returned %f\n", getNumber(myfifo));
-    }
+    // for(int i= 0; i < 10; i++) {
+    //     printf("Python returned %f\n", getNumber(myfifo));
+    // }
+    sleep(10);
+    unif01_Gen *gen = unif01_CreateExternGen01("test", getNumber);
+    gen->GetU01(gen->param, gen->state);
+    bbattery_SmallCrush (gen);
     return 0;
 }
