@@ -23,20 +23,20 @@ double getNumber() {
     struct pollfd input[1] = {{fd: 0, events: POLLIN}};
     while(1) {
         fflush(stdout);
-        ret_poll = poll(input, 1, 1);
+        ret_poll = poll(input, 1, 10);
         if (ret_poll >0 ) {
             fgets(str1, 20, stdin);
             break;
         }
         else {
             char * test = "hello\n";
-            fprintf(stdout,"%s\n", test);
             write(fd2, test, sizeof(test));
         }
     }
+    
     double result = strtod(str1, NULL);
     // Print the read string and close
-    
+    // printf("Var is now: %f\n", result);
     return result;
 }
 
