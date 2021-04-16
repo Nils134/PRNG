@@ -12,34 +12,42 @@
 #include <stdio.h>
 #include "bbattery.h"
 #include <stdlib.h>
+#include <poll.h>
+int fd2;
+
 
 double getNumber() {
-    char * myfifo = "randomPipe";
-    char * request = "emptyPipe";
-    char str1[80];
-    int fd1 = open(myfifo,O_RDONLY);
-    int test = read(fd1, str1, 80);
-    if (test < 15) {
-        printf("Too short: %d", test);
+    
+    char str1[20] = "\0";
+    int ret_poll;
+    struct pollfd input[1] = {{fd: 0, events: POLLIN}};
+    while(1) {
+        fflush(stdout);
+        ret_poll = poll(input, 1, 1);
+        if (ret_poll >0 ) {
+            fgets(str1, 20, stdin);
+            break;
+        }
+        else {
+            char * test = "hello\n";
+            fprintf(stdout,"%s\n", test);
+            write(fd2, test, sizeof(test));
+        }
     }
-    printf("%s\n", str1);
     double result = strtod(str1, NULL);
     // Print the read string and close
-    close(fd1);
-
+    
     return result;
 }
 
 
 int main()
 {
-    int fd1;
-    // for(int i= 0; i < 10; i++) {
-    //     printf("Python returned %f\n", getNumber(myfifo));
-    // }
-    sleep(10);
+    char * request = "emptyPipe";
+    fd2 = open(request, O_WRONLY);
     unif01_Gen *gen = unif01_CreateExternGen01("test", getNumber);
     gen->GetU01(gen->param, gen->state);
     bbattery_SmallCrush (gen);
+    printf("Done, \n");
     return 0;
 }
