@@ -21,8 +21,8 @@ int fd2;
 
 
 double getNumber() {
-    printf("Getting nuber\n");
-    char str1[20] = "\0";
+    // printf("Getting nuber\n");
+    char str1[15] = "\0";
 
     // struct pollfd input[1] = {{fd: STDIN_FILENO, events: POLLIN}};
     while(1) {
@@ -56,8 +56,9 @@ double getNumber() {
             perror("select()");
         else if (retval) {
             
-            read(fd1,str1, 14);
-            printf("Data is available now: %s\n", str1);
+            read(fd1,str1, 15);
+            str1[15] = '\0';
+            // printf("Data is available now: %s\n", str1);
             break;
             /* FD_ISSET(0, &rfds) will be true. */
         }
@@ -65,7 +66,7 @@ double getNumber() {
             // printf("No data within five seconds.\n");
             char * test = "hello\n";
             write(fd2, test, sizeof(test));
-            printf("Not finding new numbers, retval %d \n", retval);
+            // printf("Not finding new numbers, retval %d \n", retval);
             sleep(1);
         }
         
