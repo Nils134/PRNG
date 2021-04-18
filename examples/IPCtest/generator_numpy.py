@@ -1,3 +1,5 @@
+from numpy import random
+
 import random
 import sys
 

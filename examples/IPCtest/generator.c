@@ -47,8 +47,8 @@ double getNumber() {
         FD_ZERO(&rfds);
         FD_SET(fd1, &rfds);
         /* Wait up to five seconds. */
-        tv.tv_sec = 1;
-        tv.tv_usec = 0;
+        tv.tv_sec = 0;
+        tv.tv_usec = 1000;
         retval = select(fd1+1, &rfds, NULL, NULL, &tv);
         /* Don’t rely on the value of tv now! */
 
@@ -67,7 +67,6 @@ double getNumber() {
             char * test = "hello\n";
             write(fd2, test, sizeof(test));
             // printf("Not finding new numbers, retval %d \n", retval);
-            sleep(1);
         }
         
     }
