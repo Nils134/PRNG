@@ -7,6 +7,5 @@ while(1):
     if (data != ""):
         for x in range(0, 100):
             line = '%.12f' % random.random() 
-            print(line)
-        sys.stdout.flush()
+            print(line, flush=True)
     
