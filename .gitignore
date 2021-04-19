@@ -4,8 +4,6 @@
 !examples/*.py
 !examples/*.cpp
 !examples/IPCtest
-!examples/IPCtest/*.c
-!examples/IPCtest/*.py
-!examples/IPCtest/*.txt
+!examples/IPCtest/*.*
 !.gitignore
 !notes.txt
