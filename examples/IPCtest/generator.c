@@ -57,7 +57,9 @@ double getNumber() {
         else if (retval) {
             
             read(fd1,str1, 15);
+            // printf("Test number %s", str1);
             str1[15] = '\0';
+            
             // printf("Data is available now: %s\n", str1);
             break;
             /* FD_ISSET(0, &rfds) will be true. */
