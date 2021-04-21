@@ -18,11 +18,12 @@
 #include <sys/types.h>
 int fd1;
 int fd2;
+FILE* reader;
 
 
 double getNumber() {
     // printf("Getting nuber\n");
-    char str1[15] = "\0";
+    char str1[40] = "\0";
 
     // struct pollfd input[1] = {{fd: STDIN_FILENO, events: POLLIN}};
     while(1) {
@@ -56,11 +57,8 @@ double getNumber() {
             perror("select()");
         else if (retval) {
             
-            read(fd1,str1, 15);
-            // printf("Test number %s\n", str1);
-            str1[15] = '\0';
-            
-            // printf("Data is available now: %s\n", str1);
+            fgets(str1, sizeof(str1), reader);
+            printf("Data is available now: %s\n", str1);
             break;
             /* FD_ISSET(0, &rfds) will be true. */
         }
@@ -68,16 +66,13 @@ double getNumber() {
             // printf("No data within five seconds.\n");
             char * test = "hello\n";
             write(fd2, test, sizeof(test));
-            // printf("Not finding new numbers, retval %d \n", retval);
+            printf("Not finding new numbers, retval %d \n", retval);
         }
         
     }
 
 
     double result = strtod(str1, NULL);
-    if (result > 1) {
-        printf("Failuree");
-    }
     // Print the read string and close
     // printf("Var is now: %f\n", result);
     return result;
@@ -99,6 +94,7 @@ int main(void)
     if (fd1 == -1) {
         printf("File receive not opened correctly\n");
     }
+    reader = fdopen(fd1, "r");
     
     unif01_Gen *gen = unif01_CreateExternGen01("test", getNumber);
     gen->GetU01(gen->param, gen->state);
@@ -106,5 +102,6 @@ int main(void)
     printf("Done, \n");
     close(fd2);
     close(fd1);
+    fclose(reader);
     return 0;
 }
