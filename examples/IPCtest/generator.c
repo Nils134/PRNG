@@ -75,9 +75,9 @@ double getNumber() {
 
 
     double result = strtod(str1, NULL);
-    if (result > 1) {
-        printf("Failuree");
-    }
+    // if (result > 1) {
+    //     printf("Failuree");
+    // }
     // Print the read string and close
     // printf("Var is now: %f\n", result);
     return result;
@@ -102,7 +102,7 @@ int main(void)
     
     unif01_Gen *gen = unif01_CreateExternGen01("test", getNumber);
     gen->GetU01(gen->param, gen->state);
-    bbattery_SmallCrush (gen);
+    bbattery_Crush(gen);
     printf("Done, \n");
     close(fd2);
     close(fd1);
