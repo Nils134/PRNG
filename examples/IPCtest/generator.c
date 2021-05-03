@@ -24,20 +24,7 @@ double getNumber() {
     // printf("Getting nuber\n");
     char str1[15] = "\0";
 
-    // struct pollfd input[1] = {{fd: STDIN_FILENO, events: POLLIN}};
     while(1) {
-        // fflush(stdout);
-        // ret_poll = poll(input, 1, 1000);
-        // if (ret_poll >0 ) {
-        //     printf("Wroking %d",  ret_poll);
-        //     fgets(str1, 20, stdin);
-        //     break;
-        // }
-        // else {
-        //     char * test = "hello\n";
-        //     write(fd2, test, sizeof(test));
-        //     printf("Not finding new numbers");
-        // }
         
         fd_set rfds;
         struct timeval tv;
@@ -102,7 +89,7 @@ int main(void)
     
     unif01_Gen *gen = unif01_CreateExternGen01("test", getNumber);
     gen->GetU01(gen->param, gen->state);
-    bbattery_Crush(gen);
+    bbattery_SmallCrush(gen);
     printf("Done, \n");
     close(fd2);
     close(fd1);

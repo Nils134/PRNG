@@ -1,0 +1,1631 @@
+number for this test: 1809859695
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1809859695
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.41
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 2112218887
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 2112218887
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.19
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1067794013
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1067794013
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.09
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 965041153
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 965041153
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.25
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 263405555
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 263405555
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.38
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1489433105
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1489433105
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.14
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 819924697
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 819924697
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.14
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 117857142
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 117857142
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.15
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 129406040
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 129406040
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.21
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 281168964
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 281168964
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.56
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 67703798
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 67703798
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.79
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1208009976
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1208009976
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.25
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1213142081
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1213142081
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.46
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1913967842
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1913967842
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.30
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1881797988
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1881797988
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.15
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 796618129
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 796618129
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.25
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 989587343
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 989587343
+
+--
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.31
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ 10  RandomWalk1 R                   3.2e-4
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 200512608
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 200512608
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.19
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 401226223
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 401226223
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.62
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 390499971
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 390499971
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.22
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 67227946
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 67227946
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.61
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1845821335
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1845821335
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.68
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 2087712482
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 2087712482
+
+--
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.74
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ 10  RandomWalk1 H                   7.2e-6
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 975212775
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 975212775
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:13.60
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 420060323
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 420060323
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.87
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 2130197869
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 2130197869
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:13.08
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 922075360
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 922075360
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.12
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 78640250
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 78640250
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.86
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 257830851
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 257830851
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.62
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 487871130
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 487871130
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:14.43
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 997547027
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 997547027
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:13.25
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 2067690546
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 2067690546
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.72
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 452606369
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 452606369
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.08
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 2065341040
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 2065341040
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.54
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 885248052
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 885248052
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.86
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 716011924
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 716011924
+
+--
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.39
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+  8  MatrixRank                      0.9993 
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1407290497
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1407290497
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.82
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1705172749
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1705172749
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:13.66
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 833869066
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 833869066
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.64
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1536696538
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1536696538
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.57
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1986341713
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1986341713
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:13.69
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 901572865
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 901572865
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.50
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 597222866
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 597222866
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.75
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1052000146
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1052000146
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.32
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 668057059
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 668057059
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.76
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 331537206
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 331537206
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:12.13
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1848618276
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1848618276
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.52
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 1657644402
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 1657644402
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.07
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 532049815
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 532049815
+
+--
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreateLCG
+ Number of statistics:  15
+ Total CPU time:   00:00:11.15
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  BirthdaySpacings                 eps  
+  2  Collision                        eps  
+  6  MaxOft                           eps  
+ ----------------------------------------------
+ All other tests were passed
+
+number for this test: 102360851
+xxx
+xxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+
+xxx
+xxxxx
+
+***********************************************************
+HOST = nils-VirtualBox, Linux
+
+ulcg_CreateLCG:   m = 2147483647,   a = 16807,   c = 0,   s = 102360851
+
