@@ -11,6 +11,7 @@
 #include "unif01.h"
 #include <stdio.h>
 #include "bbattery.h"
+#include "sstring.h"
 #include <stdlib.h>
 #include <poll.h>
 
@@ -18,6 +19,7 @@
 #include <sys/types.h>
 int fd1;
 int fd2;
+
 
 double getNumber() {
     // printf("Getting nuber\n");
@@ -88,7 +90,20 @@ int main(void)
     
     unif01_Gen *gen = unif01_CreateExternGen01("test", getNumber);
     gen->GetU01(gen->param, gen->state);
-    bbattery_SmallCrush(gen);
+    sstring_HammingCorr(gen, NULL, 1, 10000000,  0,30,1200 );
+    sstring_HammingIndep(gen, NULL, 1, 300000000, 0, 30, 30 ,0);
+    sstring_HammingIndep(gen, NULL, 1, 100000000, 20,10,30,0);
+    sstring_HammingIndep(gen, NULL, 1, 30000000, 0 ,30, 300, 0);
+    sstring_HammingIndep(gen, NULL, 1, 10000000, 0, 30, 300,0);
+    sstring_HammingIndep(gen, NULL, 1, 10000000, 20, 10, 300, 0);
+    sstring_HammingIndep(gen, NULL, 1,10000000, 20, 10, 300, 0);
+    sstring_HammingIndep(gen, NULL, 1,1000000, 20, 10, 1200, 0);
+    sstring_Run(gen, NULL,1, 1000000000, 0, 30);
+    sstring_Run(gen, NULL, 1, 1000000000, 20, 10);
+    sstring_AutoCor(gen, NULL, 10, 1000000000, 0, 30, 1);
+    sstring_AutoCor(gen, NULL, 5, 1000000000, 20, 10, 1);
+    sstring_AutoCor(gen, NULL, 10, 1000000000, 0, 30, 30);
+    sstring_AutoCor(gen, NULL, 5, 1000000000, 20, 10, 10);    
     printf("Done, \n");
     close(fd2);
     close(fd1);
