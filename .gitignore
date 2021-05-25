@@ -9,3 +9,6 @@
 !examples/IPCtest/results/*.txt
 !.gitignore
 !notes.txt
+!examples/hello
+!examples/hello/src
+!examples/hello/src/*.java
