@@ -18,10 +18,10 @@
 #include <sys/types.h>
 int fd1;
 int fd2;
-
+int i = 0;
 double getNumber() {
     // printf("Getting nuber\n");
-    char str1[15] = "\0";
+    char str1[16] = "\0";
 
     while(1) {
         
@@ -44,9 +44,12 @@ double getNumber() {
             
             read(fd1,str1, 15);
             // printf("Test number %s\n", str1);
-            str1[15] = '\0';
-            
+            // str1[16] = '\0';
             // printf("Data is available now: %s\n", str1);
+            if (!strcmp(str1, "\n")) {//faulty read
+                // printf("test");
+                continue;
+            }
             break;
             /* FD_ISSET(0, &rfds) will be true. */
         }
@@ -59,13 +62,15 @@ double getNumber() {
         
     }
 
-
+    char *ptr;
     double result = strtod(str1, NULL);
+    // printf("String part is |%s|", ptr); 
     // if (result > 1) {
     //     printf("Failuree");
     // }
     // Print the read string and close
-    // printf("Var is now: %f\n", result);
+    // printf("Var is now: %.12f, number = %d\n", result, i);
+    // exit(-1);
     return result;
 }
 
