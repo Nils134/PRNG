@@ -14,3 +14,5 @@
 !examples/hello/src/*.java
 !examples/results
 !examples/results/*.txt
+!examples/results/DIEHARD
+!examples/results/DIEHARD/*.txt
