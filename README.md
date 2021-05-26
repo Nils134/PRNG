@@ -37,4 +37,8 @@ In my program, I use two random pipes, called randomPipe and emptyPipe. These ca
 
 The generator program can be connected to this pipes via ./program < emptyPipe > randomPipe . After this, we can run the tester program by running one of the compiled test files. Eg. ./tester that was previously generated.
 
+## Running different programming languages
 
+C#: install monocomplete
+Java: install jre and jdk
+Javascript: install node
