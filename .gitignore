@@ -3,6 +3,8 @@
 !examples/*.c
 !examples/*.py
 !examples/*.cpp
+!examples/*.r
+!examples/*.hs
 !examples/IPCtest
 !examples/IPCtest/
 !examples/IPCtest/results
