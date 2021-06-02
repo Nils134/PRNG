@@ -6,6 +6,7 @@
 !examples/*.r
 !examples/*.hs
 !examples/*.php
+!examples/*.f90
 !.gitignore
 !notes.txt
 !examples/hello
