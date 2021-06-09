@@ -42,3 +42,11 @@ The generator program can be connected to this pipes via ./program < emptyPipe >
 C#: install monocomplete
 Java: install jre and jdk
 Javascript: install node
+R: use Rscript to run R via terminal
+C++:
+C:
+C#: Monocomplete
+Java: JDK and JRE
+Fortran: gfortran
+PHP: 
+Bash:
