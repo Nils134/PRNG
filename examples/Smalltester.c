@@ -45,7 +45,7 @@ double getNumber() {
             read(fd1,str1, 15);
             // printf("Test number %s\n", str1);
             // str1[16] = '\0';
-            printf("Data is available now: %s\n", str1);
+            // printf("Data is available now: %s\n", str1);
             if (!strcmp(str1, "\n")) {//faulty read
                 // printf("test");
                 continue;
@@ -57,7 +57,7 @@ double getNumber() {
             // printf("No data within five seconds.\n");
             char * test = "hello\n";
             write(fd2, test, sizeof(test));
-            printf("Not finding new numbers, retval %d \n", retval);
+            // printf("Not finding new numbers, retval %d \n", retval);
         }
         
     }
