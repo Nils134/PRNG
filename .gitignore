@@ -8,6 +8,7 @@
 !examples/*.php
 !examples/*.f90
 !examples/*.js
+!examples/*.sh
 !.gitignore
 !notes.txt
 !examples/hello
