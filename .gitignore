@@ -18,3 +18,6 @@
 !examples/results/*.txt
 !examples/results/DIEHARD
 !examples/results/DIEHARD/*.txt
+!examples/rust 
+!examples/rust/src
+!examples/rust/src/*.rs
