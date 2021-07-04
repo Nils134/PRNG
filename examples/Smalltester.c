@@ -42,14 +42,18 @@ double getNumber() {
             perror("select()");
         else if (retval) {
             
-            read(fd1,str1, 15);
-            // printf("Test number %s\n", str1);
+            int reads = read(fd1,str1, 15);
+            printf("Test number %s\n", str1);
             // str1[16] = '\0';
             // printf("Data is available now: %s\n", str1);
             if (!strcmp(str1, "\n")) {//faulty read
                 // printf("test");
                 continue;
             }
+            while (reads < 15) {
+                reads += read(fd1,str1, 14 - reads);
+            }
+            
             break;
             /* FD_ISSET(0, &rfds) will be true. */
         }
@@ -57,15 +61,26 @@ double getNumber() {
             // printf("No data within five seconds.\n");
             char * test = "hello\n";
             write(fd2, test, sizeof(test));
-            // printf("Not finding new numbers, retval %d \n", retval);
+            printf("Not finding new numbers, retval %d \n", retval);
         }
         
     }
-
+    i++;
     char *ptr;
     double result = strtod(str1, NULL);
     if (result > 1) {
+        printf("Unusual value %f", result);
         exit(-1);
+    }
+    if (i == 1) {
+        printf("First result in: %s", str1);
+    }
+    if (i == 1000000) {
+        printf("str1 %s\n", str1 );
+        i = 0;
+    }
+    if (result == 0) {
+        printf("0 found\n");
     }
     // printf("String part is |%s|", ptr); 
     // if (result > 1) {
