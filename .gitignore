@@ -9,6 +9,7 @@
 !examples/*.f90
 !examples/*.js
 !examples/*.sh
+!examples/*.m
 !.gitignore
 !notes.txt
 !examples/hello
